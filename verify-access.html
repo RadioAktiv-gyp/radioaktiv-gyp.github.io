@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadioAktiv_verify_access_.env</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/bfav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/bfav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/bfav/favicon-16x16.png">
+    <link rel="manifest" href="./img/bfav/site.webmanifest">
+    <link rel="mask-icon" href="./img/bfav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/bfav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="./img/bfav/browserconfig.xml">
+    <meta name="theme-color" content="#1b1e20">
+    <style>
+        .ra-verify-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        body{
+            font-family: 'Prompt', sans-serif;
+            background-color: #1f2224;
+            color: #f0f8ff;
+            overflow: hidden !important;
+        }
+        input{
+            font-size: 24px;
+            margin-bottom: 2em;
+            width: 20em;
+            color: aliceblue;
+            text-align: center;
+        }
+        button{
+            font-size: 16px;
+        }
+        .bt{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .ra-button{
+            background-color: #c65b5b6b;
+            padding: 15px 20px;
+            border: none;
+            outline: none;
+            color: #f0f8ffbd; /* #c65b5b */
+            border-radius: 10px;
+            cursor: pointer;
+            user-select: auto;
+            text-decoration: none;
+        }
+        .ra-button:hover{
+            background-color: #c65b5bb7;
+            color: #f0f8ff;
+        }
+        .ra-button:active{
+            transform: scale(.9);
+        }
+        .spn{
+            margin-bottom: 3em;
+            font-size: 18px;
+        }
+        input{
+            outline: none;
+            border: 1px solid #545454;
+            border-radius: 5px;
+            background-color: #202427;
+            height: 60px;
+        }
+        input:focus{
+            border: 2px solid #aaa;
+        }
+        #errid{
+            color: #f65353;
+            display: none;
+        }
+        #errid.err{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section class="verify">
+        <div class="ra-verify-form">
+            <span class="spn">Aus Copyrightgründen musst du zuerst deinen Code eingeben, den du vom RadioAktiv Team bekommen hast!</span>
+            <small id="errid">Falscher code!</small>
+            <div action="https://aecceddapis.com/ra-verify" method="POST">
+                <input type="text" id="rainputverif" name="pincode"  placeholder="4-stelliger Code"/> <!-- maxlength="4" pattern="\d{4}" --> <br>
+                <div class="bt">
+                    <button id="bcrek" type="button" class="ra-button">Zurück</button>
+                    <button id="btrls" type="button" class="ra-button">Weiter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/script/verify.js"></script>
+    <script>
+        $("#bcrek").click(function(){
+            window.location.href = "/";
+        })
+    </script>
+    <script>
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=");
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1;
+                    c_end = document.cookie.indexOf(";", c_start);
+                    if (c_end == -1) {
+                        c_end = document.cookie.length;
+                    }
+                    return unescape(document.cookie.substring(c_start, c_end));
+                }
+            }
+            return "";
+        }
+
+        if(getCookie("err")){
+            document.getElementById("errid").classList.add("err");
+        }
+        if(getCookie("_ra_acc_485_tk")){
+            window.location.href = "/hören.html";
+        }
+    </script>
+</body>
+</html>
+
+<!-- ?from=hören&lgbef=0&uaccess=copyright -->
