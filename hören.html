@@ -103,6 +103,14 @@
         if(!getCookie("_ra_acc_485_tk")){
             window.location.href = "/verify-access.html";
         }
+
+        $('.ra-bicon').click(function(){
+            $(this).toggleClass("open");
+            $('.ra-ul').toggleClass("open");
+            $('.ra-litem a').toggleClass("open");
+            $('.ra-overlay').toggleClass("open");
+            $('body').toggleClass("open");
+        })
     </script>
 </body>
 </html>

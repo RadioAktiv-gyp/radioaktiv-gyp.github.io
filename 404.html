@@ -91,6 +91,14 @@
         document.getElementById("backlink").addEventListener("click", () =>{
             history.back();
         })
+
+        $('.ra-bicon').click(function(){
+            $(this).toggleClass("open");
+            $('.ra-ul').toggleClass("open");
+            $('.ra-litem a').toggleClass("open");
+            $('.ra-overlay').toggleClass("open");
+            $('body').toggleClass("open");
+        })
     </script>
 </body>
 </html>
