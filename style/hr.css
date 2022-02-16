@@ -154,11 +154,11 @@ audio {
 .ra-wr{
     display: none;
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     .m-radioaktiv{
         display: none;
     }
     .ra-wr{
         display: block;
     }
-}
+}*/
