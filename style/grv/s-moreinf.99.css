@@ -1,0 +1,159 @@
+@import url('https://baum21614-cdn.github.io/fonts/external/rubik/FONT__RUBIK.css');
+._wwwgraphic{
+    border-radius: 10px;
+}
+h1.__suggested::before{
+    content: "Suggested: ";
+    color: #D8572A;
+    font-family: "Rubik", sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+}
+h1.__new::before{
+    content: "New: ";
+    color: #D8572A;
+    font-family: "Rubik", sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+}
+h1.__soon::before{
+    content: "Soon: ";
+    color: #D8572A;
+    font-family: "Rubik", sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+}
+h1.__fontspecial,h2.__fontspecial,h3.__fontspecial,h4.__fontspecial,h5.__fontspecial,h6.__fontspecial{
+    font-family: "Rubik", sans-serif;
+}
+h1.mainheaderone,h2.mainheaderone{
+    font-size: 42px;
+    font-weight: 600;
+}
+.mhero_actionbuttons{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 1.5em;
+}
+.recaionsservice.__wwuserheight{
+    height: calc(100vh - 84px - 132px);
+    margin-top: 84px;
+}
+.mhero_title{
+    margin-bottom: 2.2rem;
+}
+.mhero_wwtextsection{
+    margin-bottom: 1.77rem;
+}
+.heroimg._wwwgraphic{
+    pointer-events: none;
+    height: 48vh;/* hhr specific */
+    box-shadow: 2px 2px 15px 1.5px rgb(0 0 0 / 13.5%);
+    border-radius: 12px;
+}
+.mhero_inner.__animate_s0{
+    animation: none;
+}
+.mhero_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8vw;
+    align-items: center;
+    height: calc(100% - 10px);
+}
+.mhero_{
+    background: linear-gradient(180deg, #fff, #fff, #fff, #3471ff26);
+}
+.___externalbuttonspan::after{
+    content: '';
+    display: inline-flex;
+    width: 12px;
+    height: 16px;
+    background-image: url(/assets/images/static/css_icons/external_thick.svg);
+    filter: invert(1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 3px;
+    transition: .3s ease;
+}
+.__externalbtn:hover .___externalbuttonspan::after {
+    transform: translate(2.5px, -2.5px);
+}
+.yns_inner.fadein_basic_state0{
+    opacity: 0;
+    transform: translateY(50px);
+}
+.__nopos{
+    position: static;
+}
+.__ccimg, img.__ccimg{
+    pointer-events: none;
+    height: 48vh;
+    box-shadow: 2px 2px 15px 1.5px rgb(0 0 0 / 14%);
+    border-radius: 12px;
+}
+.ccrcontainer_eflmse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8vw;
+    align-items: center;
+    height: calc(100% - 10px);
+}
+.mmr_flsrestdata{
+    margin-top: 1.134em;
+}
+.mhero__under_title{
+    margin-bottom: .6em;
+}
+.__mbdefault{
+    margin-bottom: 1.37rem;
+}
+.__nopos{
+    transition: .5s ease-in;
+}
+.__nopos.fadein_basic_state0{
+    opacity: 0;
+    transform: translateY(90px);
+}
+.cc_desc{
+    transition-delay: .175s;
+}
+.__cccf{
+    font-size: 17px;
+    font-weight: 500;
+}
+.__wwglobal:not(:last-child){
+    margin-bottom: 8.8em;
+}
+.__wwglobal:last-child{
+    margin-bottom: 5.2em;
+}
+.ccteaseinnerdjuf{
+    background-color: #3987fd28;
+    margin: 0 16em;
+    padding: 1.5em;
+    border-radius: 12px;
+    color: #3987fd;
+    font-family: 'Rubik', sans-serif;
+}
+.hh2isfg_teasetext{
+    margin-bottom: .5em;
+}
+.__btst,.__ccone{
+    margin-left: -12px;
+}
+.qna_subheader{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main_describedetail {
+    font-size: 18px;
+}
+.uwinner_bbm{
+    margin-top: 84px;
+}

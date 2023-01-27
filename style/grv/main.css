@@ -1,0 +1,30 @@
+@import url('https://baum21614-cdn.github.io/fonts/external/poppins/FONT__POPPINS.css');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.def_primary.__nvustop:hover .spn_arrw_pk_gen{
+    transform: translateX(0) !important;
+}
+.def_primary.__invalid:hover .spn_arrw_pk_gen{
+    transform: translateX(0);
+}
+.def_primary.__invalid:hover .spn_arrw_pk_gen::before,.def_primary.__nvustop:hover .spn_arrw_pk_gen::before{
+    width: 0px !important;
+}
+.def_primary.__invalid:hover,.def_primary.__nvustop:hover{
+    background-color: #3986FD !important;
+}
+input[readonly]{
+    opacity: .75;
+    cursor: not-allowed;
+}
+.wwinvisible{
+    text-decoration: none !important;
+    color: inherit;
+}
+/* #f7f6f6 */

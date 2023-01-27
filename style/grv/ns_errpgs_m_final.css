@@ -1,0 +1,50 @@
+/* grovider_data - cfid: 9uzh85948wz4bt459z8b9835tz */
+@import url('https://baum21614-cdn.github.io/fonts/external/quicksand/FONT__QUICKSAND.css');
+
+/* for _ nserr */
+body{
+    padding: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+.errpage_logocontainer{
+    display: inline-flex;
+}
+.main_errimg{
+    height: 70px;
+    margin-bottom: 2em;
+}
+.err_hdr__large{
+    font-size: 42px;
+    color: #D8572A;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.err_hdr__large::before{
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjRDg1NzJBIj48cGF0aCBkPSJNNTA2LjMgNDE3bC0yMTMuMy0zNjRDMjg0LjggMzkgMjcwLjQgMzIgMjU2IDMyQzI0MS42IDMyIDIyNy4yIDM5IDIxOC4xIDUzbC0yMTMuMiAzNjRDLTEwLjU5IDQ0NC45IDkuODUxIDQ4MCA0Mi43NCA0ODBoNDI2LjZDNTAyLjEgNDgwIDUyMi42IDQ0NSA1MDYuMyA0MTd6TTUyLjU4IDQzMkwyNTUuMSA4NC44TDQ1OS40IDQzMkg1Mi41OHpNMjU2IDMzNy4xYy0xNy4zNiAwLTMxLjQ0IDE0LjA4LTMxLjQ0IDMxLjQ0YzAgMTcuMzYgMTQuMTEgMzEuNDQgMzEuNDggMzEuNDRzMzEuNC0xNC4wOCAzMS40LTMxLjQ0QzI4Ny40IDM1MS4yIDI3My40IDMzNy4xIDI1NiAzMzcuMXpNMjMyIDE4NHY5NkMyMzIgMjkzLjMgMjQyLjggMzA0IDI1NiAzMDRzMjQtMTAuNzUgMjQtMjR2LTk2QzI4MCAxNzAuOCAyNjkuMyAxNjAgMjU2IDE2MFMyMzIgMTcwLjggMjMyIDE4NHoiLz48L3N2Zz4=")
+}
+.errpage_header{
+    margin-bottom: 1em;
+}
+.errpage_body p{
+    margin-bottom: .1em;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(15, 15, 15, 0.65);
+}
+.errpage_footercontainer{
+    position: fixed;
+    bottom: 1em;
+    left: 2em;
+    user-select: none;
+}
+.copyright_text{
+    font-size: 16px;
+    font-weight: 500;
+}
